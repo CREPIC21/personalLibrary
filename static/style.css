@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+    background-color: #046582;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+p {
+    font-size: 2rem;
+    color: #f39189;
+    font-weight: bolder;
+}
+
+span {
+    color: #f39189;
+}
+
+.library {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #f39189;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+a, .button-edit-add {
+    text-decoration: none;
+    color: #046582;
+    font-weight: bolder;
+}
+
+.button-edit-add {
+    padding: 6px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+.add-book {
+    margin-top: 30px;
+    padding: 6px
+}
+
+input {
+    padding-top: 6.2px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+label {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+form-add {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-div input {
+    width: 20%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
