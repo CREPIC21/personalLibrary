@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
+
+# general style
 body {
     background-color: #046582;
     font-family: 'Akaya Telivigala', cursive;
@@ -25,36 +27,6 @@ span {
     color: #f39189;
 }
 
-.library {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60%;
-}
-
-
-li {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    color: #f39189;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-a, .button-edit-add {
-    text-decoration: none;
-    color: #046582;
-    font-weight: bolder;
-}
-
-.button-edit-add {
-    padding: 6px;
-    cursor: pointer;
-}
-
 button {
     border: none;
     border-radius: 5px;
@@ -64,11 +36,6 @@ button {
 
 button:focus, input:focus {
     outline: none;
-}
-
-.add-book {
-    margin-top: 30px;
-    padding: 6px
 }
 
 input {
@@ -84,6 +51,46 @@ label {
     font-size: 1.6rem;
 }
 
+# style for main div in each html file
+.library {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+# li style
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #f39189;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+# ancor and button in add.html and edit.html style
+a, .button-edit-add {
+    text-decoration: none;
+    color: #046582;
+    font-weight: bolder;
+}
+
+# button in add.html and edit.html style
+.button-edit-add {
+    padding: 6px;
+    cursor: pointer;
+}
+
+# button to add new book style
+.add-book {
+    margin-top: 30px;
+    padding: 6px
+}
+
+# form style
 form-add {
     display: flex;
     flex-direction: column;
