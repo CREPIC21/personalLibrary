@@ -24,7 +24,7 @@ class Book(db.Model):
         return f'<Book {self.title}>'
 
 # creating our database - once run needs to be commented as the database will be created
-db.create_all()
+#db.create_all()
 
 # home route where all the books will be displayed on the screen - book name, author, rating
 @app.route('/')
