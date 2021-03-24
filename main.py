@@ -6,7 +6,7 @@ import os
 # creating the application
 app = Flask(__name__)
 # your database URI that should be used for the connection
-app.config['SQLALCHEMY_DATABASE_URI'] = 'your database URI'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///library-collection.db'
 # if set to True, Flask-SQLAlchemy will track modifications of objects and emit signals.
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # creating SQLAlchemy object by passing it the application
